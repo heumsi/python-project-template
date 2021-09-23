@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "python-project-template"
+version = "0.1.0"
+description = ""
+authors = ["heumsi <heumsi@naver.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.10"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+isort = "^5.9.3"
+pycln = "^1.0.3"
+black = "21.7.b0"
+mypy = "^0.910"
+pre-commit = "^2.15.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
