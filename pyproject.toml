@@ -15,6 +15,7 @@ black = "21.7.b0"
 mypy = "^0.910"
 pre-commit = "^2.15.0"
 pytest-cov = "^2.12.1"
+flake8 = "^3.9.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
